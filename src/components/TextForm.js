@@ -48,19 +48,19 @@ export default function TextForm(props) {
           rows="8"
         ></textarea>
       </div>
-      <button className="btn btn-primary mx-2" onClick={handleUpClick}>
+      <button className="btn btn-primary mx-2 my-1" onClick={handleUpClick}>
         Convert to Uppercase
       </button>
-      <button className="btn btn-primary mx-2" onClick={handleLoClick}>
+      <button className="btn btn-primary mx-2 my-1" onClick={handleLoClick}>
         Convert to Lowercase
       </button>
-      <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>
+      <button className="btn btn-primary mx-2 my-1" onClick={handleExtraSpaces}>
       Remove ExtraSpace
       </button>
-      <button className="btn btn-primary mx-3" onClick={handleClearClick}>
+      <button className="btn btn-primary mx-3 my-1" onClick={handleClearClick}>
         Clear Text
       </button>
-      <button  className="btn btn-primary mx-2" onClick={() => {
+      <button  className="btn btn-primary mx-2 my-1" onClick={() => {
          navigator.clipboard.writeText(text);}}>
         
         Copy Text
